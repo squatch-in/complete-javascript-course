@@ -100,24 +100,24 @@
 
 /* Write your code below. Good luck! 🙂 */
 
-let massMark = 78;
-let heightMark = 1.69;
-let massJohn = 92;
-let heightJohn = 1.95;
+// let massMark = 78;
+// let heightMark = 1.69;
+// let massJohn = 92;
+// let heightJohn = 1.95;
 
-massMark = 95;
-heightMark = ;
-massJohn = 92;
-heightJohn = 1.95;
+// massMark = 95;
+// heightMark = ;
+// massJohn = 92;
+// heightJohn = 1.95;
 
-const BMIMark = massMark / (heightMark * heightMark); 
-const BMIJohn = massJohn / (heightJohn * heightJohn); 
+// const BMIMark = massMark / (heightMark * heightMark); 
+// const BMIJohn = massJohn / (heightJohn * heightJohn); 
 
-console.log(BMIMark, BMIJohn);
+// console.log(BMIMark, BMIJohn);
 
-let markHigherBMI = BMIMark > BMIJohn;
+// let markHigherBMI = BMIMark > BMIJohn;
 
-console.log(markHigherBMI);
+// console.log(markHigherBMI);
 
 
 //-----------------------------------------------------------
@@ -134,3 +134,61 @@ console.log(markHigherBMI);
 // let markHigherBMI2 = BMIMark2 > BMIJohn2;
 
 // console.log(markHigherBMI2);
+
+
+// const fisrtName = "Jacob";
+// const job = "material Handler";
+// const birthYear = 1999;
+// let currentYear = 2024;
+
+// const whoAmI = `My name is ${fisrtName} and I'm a ${currentYear - birthYear} year old ${job}.`;
+
+// console.log(whoAmI);
+
+
+// const jacob = "i'm " + fisrtName + " a " + (currentYear-birthYear) + " year old " + job + "!";
+// console.log(jacob);
+
+// const string = `Okay
+// now
+// this
+// is
+// awesome!`
+
+// console.log(string);
+
+// const age = 15;
+// //const isOldEnough = age >= 16;
+
+// if(age >= 16) {
+//     console.log(`You can take you drivers test!.`)
+// }else {
+//     const yearsLeft = 16 - age;
+//     console.log(`You have ${yearsLeft} years left!`)
+// }
+
+// const birthYear = 1999;
+// let century;
+
+// if (birthYear <= 2000) {
+//     century = 20;
+// }else {
+//    century = 21; 
+// }
+// console.log(century);
+
+//when an input comes in from a webpage its usually a string
+//type conversion
+const inputYear = "1999";
+console.log(Number(inputYear));
+console.log (Number(inputYear) + 18);
+console.log(Number("hi"));
+console.log(String(25));
+
+//type coercion
+console.log("i am " + 25 + " years old");
+console.log("23" - "10" - 3);
+
+let n = "1" + 1;  //converts into a string because of the + operator
+n = n -1;         //converts into a string because of the - operator
+console.log(n);
