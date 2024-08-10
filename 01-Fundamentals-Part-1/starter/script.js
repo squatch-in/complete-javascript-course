@@ -179,16 +179,65 @@
 
 //when an input comes in from a webpage its usually a string
 //type conversion
-const inputYear = "1999";
-console.log(Number(inputYear));
-console.log (Number(inputYear) + 18);
-console.log(Number("hi"));
-console.log(String(25));
+// const inputYear = "1999";
+// console.log(Number(inputYear));
+// console.log (Number(inputYear) + 18);
+// console.log(Number("hi"));
+// console.log(String(25));
 
-//type coercion
-console.log("i am " + 25 + " years old");
-console.log("23" - "10" - 3);
+// //type coercion
+// console.log("i am " + 25 + " years old");
+// console.log("23" - "10" - 3);
 
-let n = "1" + 1;  //converts into a string because of the + operator
-n = n -1;         //converts into a string because of the - operator
-console.log(n);
+// let n = "1" + 1;  //converts into a string because of the + operator
+// n = n -1;         //converts into a string because of the - operator
+// console.log(n);
+
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean(NaN));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));
+
+
+// const money = 10;
+
+// if (money) {
+//     console.log("don't spend it all ;");
+// }else {
+//     console.log("you should get a job");
+// }
+
+// let height;
+
+
+// if (height) {
+//    console.log("height is defined"); 
+// }else {
+//     console.log("height is not defined");
+// }
+
+// const age = "18";
+// if ( age === 18) console.log("you just because an adult (strict)");
+
+// if ( age == 18) console.log("you just because an adult (loose)");
+
+// const favorite = Number(prompt("whats your favorite number"));
+
+// console.log(favorite);
+// console.log(typeof (favorite));
+// console.log(Number(favorite));
+
+// if (favorite === 7) {
+//     console.log("you chose a great number");
+// }else if(favorite === 4){
+//     console.log("4 is a cool number");
+// }else if (favorite === 9) {
+//     console.log("9 is a coole number");
+// }else {
+//     console.log("BOOOO");
+// }
+
+// if (favorite !== 7) {
+//     console.log("why not 7");
+// }
