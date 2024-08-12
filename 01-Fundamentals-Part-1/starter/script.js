@@ -241,3 +241,110 @@
 // if (favorite !== 7) {
 //     console.log("why not 7");
 // }
+
+// const hasDriversLicense = true; //A
+// const hasGoodVision = true; //B
+// const isTired = false;
+
+// // console.log(hasDriversLicense && hasGoodVision);
+// // console.log(hasDriversLicense || hasGoodVision);
+// // console.log (!hasDriversLicense && hasGoodVision);
+
+
+
+// // if (hasDriversLicense && hasGoodVision) {
+// //     console.log("Shelby is able to drive!");
+// // }else {
+// //     console.log("you cannot drive");
+// // }
+
+
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log("shelby is able to drive");
+// }else {
+//     console.log("someone else should drive");
+// }
+// const day = "friday";
+
+// // switch(day) {
+// //     case "monday":  //day === "monday"
+// //         console.log("plan learning code");
+// //         console.log("go to coding meetup");
+// //         break;
+// //     case "tuesday":
+// //         console.log("make dinner");
+// //         break;
+// //     case "wednesday":
+// //         console.log("learn javascript");
+// //         console.log("eat a sandwitch");
+// //         break;
+// //     case "thursday":
+// //     case "friday":
+// //         console.log("write code");
+// //         break;
+// //     case "saterday":
+// //     case "sunday":
+// //         console.log("enjoy the weekend");
+// //         break;
+// //     default:
+// //         console.log("not a valad day");
+// // }
+
+// if (day === "monday") {
+//     console.log("plan learning code");
+//     console.log("go to codding meetup");
+// }else if (day === "tuesday") {
+//     console.log("make dinner");
+// }else if (day === "wednesday") {
+//     console.log("learn javascript");
+//     console.log("eat a sandwitch");
+// }else if (day === "thursday") {
+//     console.log("write code");
+// }else if (day === "friday") {
+//     console.log("write code");
+// }else if (day === "saterday") {
+//     console.log("enjoy the weekend");
+// }else if (day === "sunday") {
+//     console.log("enjoy the weekend");
+// }else {
+//     console.log("not a valid day");
+// }
+
+// if (23 > 10) {
+//     const str = "23 id bigger then 10";
+// }
+
+// const age = 23;
+
+// // age >= 18 ? console.log("i like to drink pop") :
+// // console.log("i like to drink water");
+
+// const drink = age >= 18 ? ("pop") : ("water");
+
+// console.log(drink);
+
+// let drink2 = age   
+
+// console.log(`i like to drink ${age >= 18 ? ("pop") : ("water")}`);
+
+// const hoursWorked = 39;
+
+// if (hoursWorked === 40) {
+//     console.log("you have a fully paycheck");
+// } else if (hoursWorked < 40) {
+//     console.log("you worked part time");
+// }else {
+//     console.log("get a job");
+// }
+
+// console.log(`${hoursWorked === 40 ? ("fulltime") : ("part time")} and`)
+
+
+/* Write your code below. Good luck! 🙂 */
+// const bill = 270;
+// let tip = 1.15;
+// let tip2 = 1.20;
+
+
+// console.log(`The bill was ${bill}, the tip was ${bill >= 50 && bill <= 300 ? (bill * .15) : (bill * .20)}, and the total value ${bill >= 50 && bill <= 300 ? (bill * tip) : (bill* tip2)}`);
