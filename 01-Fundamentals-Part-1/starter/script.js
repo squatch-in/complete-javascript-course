@@ -348,3 +348,23 @@
 
 
 // console.log(`The bill was ${bill}, the tip was ${bill >= 50 && bill <= 300 ? (bill * .15) : (bill * .20)}, and the total value ${bill >= 50 && bill <= 300 ? (bill * tip) : (bill* tip2)}`);
+
+// const numNeighbors = Number(prompt("how many neighbour countries does your country have"));
+
+// if (numNeighbors === 1) {
+//     console.log("only one border")
+// }else if (numNeighbors > 1) {
+//     console.log("more then 1 border")
+// }else {
+//     console.log("no boarders")
+// }
+
+const speaksEnglish = true;
+const isIsland = false;
+let population = 49;
+
+if (speaksEnglish && !isIsland && population < 50) {
+    console.log("you should like portugal")
+}else {
+    console.log("try a different country")
+}
