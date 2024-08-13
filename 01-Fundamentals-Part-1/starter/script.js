@@ -359,12 +359,38 @@
 //     console.log("no boarders")
 // }
 
-const speaksEnglish = true;
-const isIsland = false;
-let population = 49;
+// const speaksEnglish = true;
+// const isIsland = false;
+// let population = 49;
 
-if (speaksEnglish && !isIsland && population < 50) {
-    console.log("you should like portugal")
-}else {
-    console.log("try a different country")
-}
+// if (speaksEnglish && !isIsland && population < 50) {
+//     console.log("you should like portugal")
+// }else {
+//     console.log("try a different country")
+// }
+
+// const language = "manderin";
+// switch (language) {
+//     case "chinese":
+//     case "manderin":
+//         console.log("most number of native speakers");
+//         break;
+//     case "spanish":
+//         console.log("second number of speakers");
+//         break
+//     case "english":
+//         console.log("3rd number of speakers");
+//         break;
+//     case "hindi":
+//         console.log("4th number of speakers");
+//         break;
+//     case "aribic":
+//         console.log("5th number of speakers");
+//         break;
+//     default:
+//         console.log("Great language too :D");
+// }
+
+const population = 3;
+const country = "jamaca"
+console.log(`${country} is ${population > 33 ? "above" : "below"} average`);
