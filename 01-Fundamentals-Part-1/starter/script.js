@@ -391,6 +391,6 @@
 //         console.log("Great language too :D");
 // }
 
-const population = 3;
-const country = "jamaca"
-console.log(`${country} is ${population > 33 ? "above" : "below"} average`);
+// const population = 3;
+// const country = "jamaca"
+// console.log(`${country} is ${population > 33 ? "above" : "below"} average`);
