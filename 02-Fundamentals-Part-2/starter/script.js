@@ -196,6 +196,31 @@
 // console.log(ages);
 
 const friends = ["Grant", "Scott", "Soloman"];
-
-friends.push("Brennan");
+// adding something to an array
+const newLength = friends.push("Brennan");
 console.log(friends);
+console.log(newLength);
+
+friends.unshift("Shelby");
+console.log(friends);
+
+// removing something from an array
+friends.pop(); // last
+const popped = friends.pop();
+console.log(friends);
+console.log(popped);
+
+friends.shift(); //first
+friends.shift();
+console.log(friends);
+
+console.log(friends.indexOf("Scott")); //returns the index position
+
+console.log(friends.includes("Scott")); // returns a boolean
+console.log(friends.includes("Jake")); // returns a boolean
+
+if (friends.includes("Grant")) {
+  console.log("you have a friend name grant");
+} else {
+  console.log("you do not have a friend named grant");
+}
