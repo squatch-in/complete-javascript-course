@@ -145,7 +145,7 @@
 //   } else if (avgKoalas >= 2 * avgDolphins) {
 //     console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
 //   } else {
-//     console.log('No team wins...');
+//     console.log("No team wins...");
 //   }
 // };
 
@@ -195,32 +195,50 @@
 
 // console.log(ages);
 
-const friends = ["Grant", "Scott", "Soloman"];
-// adding something to an array
-const newLength = friends.push("Brennan");
-console.log(friends);
-console.log(newLength);
+// const friends = ["Grant", "Scott", "Soloman"];
+// // adding something to an array
+// const newLength = friends.push("Brennan");
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift("Shelby");
-console.log(friends);
+// friends.unshift("Shelby");
+// console.log(friends);
 
-// removing something from an array
-friends.pop(); // last
-const popped = friends.pop();
-console.log(friends);
-console.log(popped);
+// // removing something from an array
+// friends.pop(); // last
+// const popped = friends.pop();
+// console.log(friends);
+// console.log(popped);
 
-friends.shift(); //first
-friends.shift();
-console.log(friends);
+// friends.shift(); //first
+// friends.shift();
+// console.log(friends);
 
-console.log(friends.indexOf("Scott")); //returns the index position
+// console.log(friends.indexOf("Scott")); //returns the index position
 
-console.log(friends.includes("Scott")); // returns a boolean
-console.log(friends.includes("Jake")); // returns a boolean
+// console.log(friends.includes("Scott")); // returns a boolean
+// console.log(friends.includes("Jake")); // returns a boolean
 
-if (friends.includes("Grant")) {
-  console.log("you have a friend name grant");
-} else {
-  console.log("you do not have a friend named grant");
-}
+// if (friends.includes("Grant")) {
+//   console.log("you have a friend name grant");
+// } else {
+//   console.log("you do not have a friend named grant");
+// }
+
+// const calcTip = function (bill) {
+//   if (bill >= 50 && bill <= 300) {
+//     return bill * 0.15;
+//   } else {
+//     return bill * 0.2;
+//   }
+// };
+// const bills = [125, 555, 44];
+
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const totals = [
+//   calcTip(bills[0]) + bills[0],
+//   calcTip(bills[1]) + bills[1],
+//   calcTip(bills[2]) + bills[2],
+// ];
+
+// console.log(tips, totals);
