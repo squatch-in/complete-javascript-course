@@ -347,43 +347,69 @@
 //   }, and he has ${jacob.checkLicense()} driver's license.`
 // );
 
-const mark = {
-  fullName: "Mark Miller",
-  mass: 78,
-  height: 1.69,
-  calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  },
-};
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
 
-const john = {
-  fullName: "John Smith",
-  mass: 92,
-  height: 1.95,
-  calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  },
-};
-// console.log(
-//   `${john.fullName} (${john.bmi}) BMI is higher than ${mark.fullName} (${mark.bmi})`
-// );
-const decision = function () {
-  if (mark.calcBMI() > john.calcBMI()) {
-    console.log(
-      `${mark.fullName}'s BMI(${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi}!)`
-    );
-  } else {
-    console.log(
-      `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi}!)`
-    );
-  }
-};
+// const john = {
+//   fullName: "John Smith",
+//   mass: 92,
+//   height: 1.95,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
+// // console.log(
+// //   `${john.fullName} (${john.bmi}) BMI is higher than ${mark.fullName} (${mark.bmi})`
+// // );
+// const decision = function () {
+//   if (mark.calcBMI() > john.calcBMI()) {
+//     console.log(
+//       `${mark.fullName}'s BMI(${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi}!)`
+//     );
+//   } else {
+//     console.log(
+//       `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi}!)`
+//     );
+//   }
+// };
 
-decision();
+// decision();
 
 // console.log(mark.calcBMI());
 // console.log(mark.bmi);
 // console.log(john.calcBMI());
 // console.log(john.bmi);
+
+//FOR LOOPS
+// console.log("Lifting weights repition 1");   the same as
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+// console.log("Lifting weights repition 1");
+
+//            ^
+//the same as |
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights repition ${rep}`);
+// }
+const jacobArray = [
+  "Jacob",
+  "verhulst",
+  2024 - 1999,
+  "forklift driver",
+  ["shelby, Brennan", "Soloman"],
+];
+for (let i = 0; ; )
