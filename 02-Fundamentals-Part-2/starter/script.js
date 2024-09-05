@@ -405,11 +405,101 @@
 // for (let rep = 1; rep <= 10; rep++) {
 //   console.log(`Lifting weights repition ${rep}`);
 // }
-const jacobArray = [
-  "Jacob",
-  "verhulst",
-  2024 - 1999,
-  "forklift driver",
-  ["shelby, Brennan", "Soloman"],
-];
-for (let i = 0; ; )
+// const jacobArray = [
+//   "Jacob",
+//   "verhulst",
+//   2024 - 1999,
+//   "forklift driver",
+//   ["shelby", "Brennan", "Soloman"],
+// ];
+// const types = [];
+
+// for (let i = 0; i < jacobArray.length; i++) {
+//   //reading from jacobArray
+//   console.log(jacobArray[i]);
+
+//   //filling an array
+//   // types[i] = typeof jacobArray[i];
+//   // another way to fill an array
+//   types.push(typeof jacobArray[i]);
+// }
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+// const age = [];
+// for (let i = 0; i < years.length; i++) {
+//   age[i] = 2024 - years[i];
+// }
+// console.log(age);
+
+// //continue and break
+// for (let i = 0; i < jacobArray.length; i++) {
+//   if (typeof jacobArray[i] === "number") {
+//     break;
+//   }
+//   console.log(jacobArray[i]);
+// }
+// const jacobArray = [
+//   "Jacob",
+//   "verhulst",
+//   2024 - 1999,
+//   "forklift driver",
+//   ["shelby", "Brennan", "Soloman"],
+// ];
+
+// for (let i = jacobArray.length - 1; i >= 0; i--) {
+//   console.log(jacobArray[i]);
+// }
+
+// for (let exercise = 1; exercise < 4; exercise++) {
+//   console.log(`---starting exercise---${exercise}`);
+
+//   for (let rep = 1; rep < 6; rep++) {
+//     console.log(`---Rep---${rep}`);
+//   }
+// }
+
+//While loops
+
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`lifting Weights ${rep}`);
+// }
+
+// let rep = 1;
+// while (rep <= 10) {
+//   console.log(`lifting weights ${rep}`);
+//   rep++;
+// }
+
+// let dice = Math.floor(Math.random() * 6) + 1;
+
+// while (dice !== 6) {
+//   console.log(`you rolled a ${dice}`);
+//   dice = Math.floor(Math.random() * 6) + 1;
+//   if (dice === 6) {
+//     console.log(`You rolled a ${dice}!`);
+//   }
+// }
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52, 125];
+const tips = [];
+const totals = [];
+const avg = [];
+
+const calcTip = function (bill) {
+  for (let i = 0; i < bills.length; i++) {
+    tips[i] = bill[i] >= 50 && bill[i] <= 300 ? bill[i] * 0.15 : bill[i] * 0.2;
+    totals[i] = bills[i] + tips[i];
+  }
+};
+calcTip(bills);
+console.log(tips);
+console.log(totals);
+
+const calcAverage = function (arr) {
+  for (let i = 0; i < totals.length; i++) {
+    avg[i] += arr[i];
+  }
+};
+calcAverage(totals);
+console.log(avg);
